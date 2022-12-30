@@ -1,0 +1,56 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  taskContainer: {
+    backgroundColor: "#262626",
+    paddingVertical: 16,
+    paddingLeft: 16,
+    paddingRight: 8,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderStyle: "solid",
+    borderColor: "#333333",
+    marginBottom: 10,
+    elevation: 8,
+    shadowColor: "#000",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  taskContainerChecked: {
+    backgroundColor: "#262626",
+    paddingVertical: 16,
+    paddingLeft: 16,
+    paddingRight: 8,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderStyle: "solid",
+    borderColor: "#262626",
+    marginBottom: 10,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  taskText: {
+    flex: 1,
+    fontSize: 14,
+  },
+  taskTextChecked: {
+    flex: 1,
+    fontSize: 14,
+    color: "#808080",
+    textDecorationLine: "line-through",
+  },
+  taskButton: {
+    backgroundColor: "transparent",
+    borderRadius: 4,
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 8,
+  },
+  taskButtonPressed: {
+    backgroundColor: "#333333",
+    borderRadius: 4,
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 8,
+  },
+});
